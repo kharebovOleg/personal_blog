@@ -303,3 +303,195 @@ button p {
     text-align: right;
     color: white;
 }
+.write_wall {
+    position: absolute;
+    width: 600px;
+    height: 74px;
+    top: 325px;
+    left: 350px;
+    border-radius: 5px;
+    background: rgba(18, 18, 18, 1);
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.45);
+}
+.write_wall p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 153px;
+    height: 18px;
+    top: 28px;
+    left: 28px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: left;
+    color: rgba(210, 210, 210, 1);        
+}
+.take_photo {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    left: 477px;
+    border-radius: 25px;
+    background: rgba(235, 235, 235, 1);
+    border: none;
+}
+.send_button {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    left: 490px;
+    top: -3.5%;
+    border-radius: 25px;
+    background: rgba(49, 55, 201, 1);
+    border: none;
+}
+.send_button img {
+    position: relative;
+    top: 3.5%;
+    left: 5%;
+}
+
+.text_block {
+    position: absolute;
+    width: 600px;
+    height: 161px;
+    top: 429px;
+    left: 350px;
+    border-radius: 5px;
+    background: rgba(32, 32, 32, 1);
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.35);
+}
+.lorem_text1 {
+    margin: 0;
+    position: relative;
+    width: 544.44px;
+    height: 92px;
+    top: 25px;
+    left: 27.78px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(210, 210, 210, 1);
+}
+.text_date {
+    position: relative;
+    left: 27.78px;
+    top: 22px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+}
+.post1 {
+    position: absolute;
+    width: 600px;
+    height: 410px;
+    top: 620px;
+    left: 350px;
+    border-radius: 5px ;
+    background: rgba(32, 32, 32, 1);
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.35);
+}
+.video_note {
+    position: relative;
+    width: 550px;
+    height: 280px;
+    top: 645px;
+    left: 375px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 1);
+}
+.notebook_img {
+    position: relative;
+    width: 550px;
+    height: 280px;
+    top: 25px;
+    left: 25px;
+    border-radius: 5px;
+}
+.play_video1 {
+    position: relative;
+    top: -40%;
+    left: 43%;
+    margin-left: 8px;
+    border-style: solid;
+    border-width: 40px 0 40px 75px;
+    border-color: transparent transparent transparent rgba(47, 43, 229, 1);
+    background: none;
+}
+.post_name {
+    display: inline;
+    margin: 0;
+    position: relative;
+    width: 394.44px;
+    height: 21px;
+    top: 5%;
+    left: -12%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.post_date {
+    margin: 0;
+    position: relative;
+    width: 61px;
+    height: 14px;
+    top: 5px;
+    left: 25px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+   
+    
+}
+.little_circle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 375px;
+    left: 101px;
+    background: rgba(196, 196, 196, 1);
+    border-radius: 50%;
+}
+.post_promotion {
+    display: inline;
+    position: absolute;
+    width: 113px;
+    height: 14px;
+    top: 370px;
+    left: 122px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: rgba(130, 130, 130, 1);
+    list-style-type: circle;
+}
+.leave_comment {
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    top: 369px;
+    left: 421px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: right;
+    color: rgba(16, 126, 255, 1);
+    text-decoration: none;
+}
