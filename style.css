@@ -12,7 +12,7 @@ body {
 .home_page {
     position: absolute;
     width: 1000px;
-    height: 2208px;
+    height: 2000px;
     background: rgba(24, 24, 24, 1)
 }
 .header{
@@ -453,8 +453,6 @@ button p {
     line-height: 14.4px;
     text-align: left;
     color: rgba(130, 130, 130, 1);
-   
-    
 }
 .little_circle {
     position: absolute;
@@ -466,7 +464,6 @@ button p {
     border-radius: 50%;
 }
 .post_promotion {
-    display: inline;
     position: absolute;
     width: 113px;
     height: 14px;
@@ -477,13 +474,13 @@ button p {
     font-weight: 400;
     line-height: 14.4px;
     color: rgba(130, 130, 130, 1);
-    list-style-type: circle;
+    text-decoration: none;
 }
 .leave_comment {
     position: absolute;
     width: 154px;
     height: 16px;
-    top: 369px;
+    top: 370px;
     left: 421px;
     gap: 0px;
     opacity: 0px;
@@ -494,4 +491,128 @@ button p {
     text-align: right;
     color: rgba(16, 126, 255, 1);
     text-decoration: none;
+}
+.post2 {
+    position: absolute;
+    width: 600px;
+    height: 484px;
+    top: 1067px;
+    left: 350px;
+    gap: 0px;
+    border-radius: 5px ;
+    background: rgba(32, 32, 32, 1);
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.35);
+}
+.post2_img {
+    position: absolute;
+    width: 600px;
+    height: 283px;
+    top: 0px;
+    left: 0px;
+}
+.post2_name {
+    position: absolute;
+    width: 394.44px;
+    height: 21px;
+    top: 290px;
+    left: 26px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: white;
+}
+.post2_text {
+    position: absolute;
+    width: 549px;
+    height: 92px;
+    top: 330px;
+    left: 26px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(210, 210, 210, 1);
+}
+.post2_date {
+    margin: 0;
+    position: absolute;
+    width: 61px;
+    height: 14px;
+    top: 444px;
+    left: 26px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+}
+.little_circle2 {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 448px;
+    left: 106px;
+    background: rgba(196, 196, 196, 1);
+    border-radius: 50%;    
+}
+.post_promotion2 {
+    position: absolute;
+    width: 113px;
+    height: 14px;
+    top: 444px;
+    left: 126px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: rgba(130, 130, 130, 1);
+    text-decoration: none;
+}
+.leave_comment2 {
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    top: 443px;
+    left: 421px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: right;
+    color: rgba(16, 126, 255, 1);
+    text-decoration: none;
+}
+.button_list {
+    margin: 0;
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    top: 1920px;
+    left: 500px;
+}
+.button_list li {
+    display: inline;
+    margin: 2px;
+}
+.button_list li button {
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(13, 13, 13, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.button_list li button span {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1); 
 }
